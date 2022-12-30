@@ -279,6 +279,11 @@ body {
 
 /* portfolio page */
 
+.container-main {
+  width: 1182px;
+  margin: 0 auto;
+}
+
 .filter-button {
   list-style: none;
   display: flex;
@@ -300,8 +305,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   list-style: none;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 34px;
   padding-bottom: 94px;
   margin: 0;
