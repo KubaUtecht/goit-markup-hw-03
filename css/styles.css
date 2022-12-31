@@ -312,9 +312,9 @@ body {
   margin: 0;
 }
 
-/*.item {
+.item {
   flex-basis: calc((100% - 60px) / 3);
-}*/
+}
 
 .project-name > li {
   border: 1px solid #eeeeee;
