@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hw2 - portfolio</title>
+    <title>hw2 - main pages</title>
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -29,13 +30,22 @@
           <li><a href="#" class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <div class="contact-container">
+      <!-- <div class="contact-container"> -->
+      <div class="mail">
+        <svg class="icons-contact">
+          <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>
         <a href="mailto:info@devstudio.com" class="contact"
           >info@devstudio.com</a
         >
-
+      </div>
+      <div class="phone">
+        <svg class="icons-contact">
+          <use href="./images/icons.svg#icon-smartphone"></use>
+        </svg>
         <a href="48111111111" class="contact">+48 111 111 111</a>
       </div>
+      <!-- </div> -->
     </header>
     <main class="container-main">
       <ul class="filter-button">
@@ -186,17 +196,37 @@
     </main>
 
     <footer class="background">
-      <a href="index.html" class="logo-footer"
-        ><span class="web-logo">Web</span>Studio</a
-      >
-      <address class="contact-footer">
-        <p class="place">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@devstudio.com" class="link-footer"
-          >info@devstudio.com</a
-        >
-
-        <a href="48111111111" class="link-footer">+48 111 111 111</a>
-      </address>
+      <div class="object-position">
+        <div>
+          <a href="index.html" class="logo-footer"
+            ><span class="web-logo">Web</span>Studio</a
+          >
+          <address class="contact-footer">
+            <p class="place">m. Warszawa, Aleje Jerozolimskie 21</p>
+            <a href="mailto:info@devstudio.com" class="link-footer"
+              >info@devstudio.com</a
+            >
+            <a href="48111111111" class="link-footer">+48 111 111 111</a>
+          </address>
+        </div>
+        <div class="media">
+          <p class="media-footer">DOŁĄCZ DO NAS</p>
+          <div class="social-media-f">
+            <svg width="44" height="44">
+              <use href="./images/icons.svg#icon-Ellipse"></use>
+            </svg>
+            <svg width="44" height="44">
+              <use href="./images/icons.svg#icon-Ellipse-1"></use>
+            </svg>
+            <svg width="44" height="44">
+              <use href="./images/icons.svg#icon-Ellipse-2"></use>
+            </svg>
+            <svg width="44" height="44">
+              <use href="./images/icons.svg#icon-Ellipse-3"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
