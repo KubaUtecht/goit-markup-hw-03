@@ -192,6 +192,7 @@ body {
   width: 270px;
   height: auto;
   background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .services-1:hover {
