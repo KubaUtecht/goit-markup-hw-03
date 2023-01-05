@@ -463,10 +463,6 @@ body {
   color: #757575;
 }
 
-.type-project:hover {
-  color: #2196f3;
-}
-
 .figcaption-2 {
   width: 322px;
   height: 70px;
@@ -477,10 +473,6 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: auto;
-}
-
-.figcaption-2:hover {
-  color: #2196f3;
 }
 
 .media-footer {
